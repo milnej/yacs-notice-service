@@ -5,7 +5,6 @@ class CreateNotices < ActiveRecord::Migration[5.2]
       t.string :type            null: false
       t.datetime :start_date    null: false
       t.datetime :end_date      null: false
-
       t.timestamps              null: false
     end
   end
